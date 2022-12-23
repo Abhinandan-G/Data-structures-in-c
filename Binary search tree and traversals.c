@@ -29,6 +29,7 @@ int main(){
 void insert(){
 	int a;
 	newnode=(struct node*)malloc(sizeof(struct node));
+	printf("Enter the element\n");
 	scanf("%d",&newnode->data);
 	newnode->left=NULL;
 	newnode->right=NULL;
