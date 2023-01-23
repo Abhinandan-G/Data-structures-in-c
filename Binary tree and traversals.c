@@ -89,7 +89,7 @@ int main(){
 			break;
 			case 3: exit(0);
 			break;
-			case 4: printf("Wrong choice\n");
+			case 4: printf("Invalid input\n");
 			break;
 		}
 	}
